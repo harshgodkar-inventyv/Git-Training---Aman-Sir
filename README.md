@@ -9,13 +9,25 @@ git config --global user.name harshgodkar-inventyv
 git config --global user.email harsh.godkar.inventyv@gmail.com
 ```
 
-We need to create a secure store of our credentials using the git credential approve command.
-
-
+For cloning the repo:
 ```
-git credential approve <<< $'url=https://github.com\nusername=harshgodkar-inventyv \npassword='
+git clone https://github.com/harshgodkar-inventyv/Git-Training-Aman-Sir.git
 ```
 
+Add updated or created files
+```
+git add <file-name>
+```
+
+Commit the changes with proper message
+```
+git commit -m "Message"
+```
+
+Push the added changes on branch
+```
+git push origin <branch-name>
+```
 
 # GitHub Branches
 
@@ -95,10 +107,16 @@ git merge release
 # Github Pull Request
 A pull request, often abbreviated as PR, serves as a proposal to merge changes made in one branch of a repository into another, typically from a feature branch into the main branch.
 
+creating rules for feature branch
+
 ![alt text](im1.png)
+
+All Rules listed
 
 ![alt text](im2.png)
 
+
+After adding hello.html Pull Request
 
 ![alt text](im3.png)
 
